@@ -4,6 +4,8 @@ body  {
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
+	display:flex;
+	flex-wrap: nowrap;
 }
 #head1  {
 	font-size:110px;
@@ -16,10 +18,12 @@ body  {
 	text-transform:uppercase;
 }
 .navbar {
+	flex:80%;
 	margin-left:380px;
 	background-blend-mode:screen;
 	opacity: 0.8;
 	overflow:hidden;
+	
 }
 a.note{
 	float: left;
@@ -83,6 +87,7 @@ a.note , .dropdown {
 }
 div.no_insert {
 	overflow :hidden;
+	flex:5%;
 }
 #Disclaimer  {
 	margin-top:500px;
